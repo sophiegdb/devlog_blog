@@ -1,5 +1,5 @@
 <?php
 
 function lastBlogPosts($pdo) {
-    return [];
+   return $lastBlogPostsVariable = [];
 }
