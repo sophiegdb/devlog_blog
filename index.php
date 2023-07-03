@@ -26,5 +26,5 @@ if (!array_key_exists($page, $routes)) {
 $render = ob_get_clean(); // récupère le contenu du tampon et le stocke dans $render
 echo $render; // affiche le contenu stocké dans $render
 include('config/database.php');
-include ('app/controllers/homeController.php');
+
 
